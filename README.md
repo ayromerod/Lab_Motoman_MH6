@@ -1,8 +1,8 @@
 # LABORATORIO: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6
 
-### 1. CUADRO COMPARATIVO:
+### 1. CUADRO COMPARATIVO ENTRE LOS ROBOTS MOTOMAN MH6 Y ABB IRB140:
 
-A continuación se muestra el cuadro comparativo entre el robot Motoman y el ABB IRB140.
+A continuación se muestra el cuadro comparativo entre el robot Motoman MH6 y el ABB IRB140.
 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/CuadroComparativo.PNG?raw=true)
 
@@ -28,9 +28,9 @@ Los ángulos correspondientes a esta posición de HOME 2 se muestran encerrados 
 
 Como se puede observar en las anteriores 4 figuras, la posición HOME 1 y HOME 2 son bastante diferentes. En un ambito industrial, habitat natural de los robots manipuladores, las posiciones de HOME se determinan en función de las condiciones de trabajo y de las necesidades especificas que se requieran en cada lugar y situación. Por ejemplo, la posición HOME 1 mostrada podría ser útil cuando el robot no se está usando y se desea que ocupe la menor cantidad de espacio posible sin estorbar ni obstaculizar nada ni a nadie. Sin embargo, si se desea realizar alguna reparación al servo motor de la base, esta posición de HOME 1 no es la más adecuada y en lugar de eso la posición de HOME 2 recién mostrada parece ser una mejor alternativa en ese caso. Así mismo, habrá otra posición HOME 3 que sea ideal cuando se requiera cambiar de herramienta. En conclusión, ninguna posición HOME es mejor que la otra, y dependiendo de las necesidades, cada una será más adecuada que la otra. 
 
-### 3. PROCEDIMIENTO PARA REALIZAR MOVIMIENTOS MANUALES:
+### 3. PROCEDIMIENTO PARA REALIZAR MOVIMIENTOS MANUALES EN EL ROBOT MOTOMAN MH6:
 
-### 4. VELOCIDADES MANUALES:
+### 4. VELOCIDADES MANUALES EN EL ROBOT MOTOMAN MH6:
 
 Existen 4 movimientos de velocidad manual, [INCH] (Inching) - [SLW] (Slow Speed) - [MED] (Medium Speed) - [FST] (High Speed); nombrados respectivamente desde el movimiento más lento, hasta el movimiento más rápido.
 
@@ -43,7 +43,8 @@ La velocidad manual se puede cambiar con los botones [FAST] y [SLOW], [FAST] inc
 Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la parte superior de la interfaz.
 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-038.jpg?raw=true)
-### 5. DESCRIPCIÓN DE LAS PRINCIPALES FUNCIONALIDADES DE ROBODK:
+
+### 5. DESCRIPCIÓN DE LAS PRINCIPALES FUNCIONALIDADES DE RoboDK:
 
 RoboDK es un software que permite la simulación y la programación offline de robots industriales. Permite generar trayectorias y enviar comandos a robots físicos sin  la necesidad de programarlos manualmente en su controlador. Para el caso del robot Motoman de Yaskawa la comunicación se realiza mediante el controlador propio del robot a través de archivos de programas (JBI) que tienen las instrucciones de acción para el robot.
 
@@ -69,7 +70,7 @@ Luego RoboDK utiliza MotoCom o MotoPlus para enviar los comandos en tiempo real 
 
 ### 6. COMPARACIÓN ENTRE RoboDK Y RobotStudio:
 
-### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR:
+### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR CON EL ROBOT MOTOMAN MH6:
 
 A continuación se observa el código phyton implementado para ejecutar la rutina del Motoman MH6:
 
@@ -155,13 +156,13 @@ robot.MoveL(transl(x, y, z_surface + z_safe))
 
 print(f"¡Figura (rosa polar) completada en el frame '{frame_name}'!")
 ```
-### 8. VIDEO DE SIMULACIÓN EN ROBODK MOSTRANDO LA TRAYECTORIA POLAR:
+### 8. VIDEO DE SIMULACIÓN EN ROBODK MOSTRANDO LA TRAYECTORIA POLAR CON EL ROBOT MOTOMAN MH6:
 
 Dando click en la siguiente imagen lo redirigirá al video de la simulación donde el robot ejecuta la trayectoria polar.
 
 [![Ver video](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/CapturaSimulacion.PNG?raw=true)](https://drive.google.com/file/d/14JbyRtTl9OlgKsnysJ1sjEwKrNEW9lJ9/view?usp=sharing)
 
-### 9. IMPLEMENTACIÓN EN EL MANIPULADOR MOTOMAN DE FORMA FÍSICA:
+### 9. IMPLEMENTACIÓN EN EL MANIPULADOR MOTOMAN MH6 DE FORMA FÍSICA:
 
 Dando click en la siguiente imagen lo redirigirá al video de la implementación física donde el robot ejecuta la trayectoria polar en la vida real.
 

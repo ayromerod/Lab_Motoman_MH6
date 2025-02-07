@@ -45,6 +45,8 @@ Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la part
 
 ### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR:
 
+A continuación se observa el código phyton implementado para ejecutar la rutina del Motoman MH6:
+
 ```python
 
 from robodk.robolink import *    # API para comunicarte con RoboDK
@@ -126,5 +128,9 @@ for i in range(num_points+1):
 robot.MoveL(transl(x, y, z_surface + z_safe))
 
 print(f"¡Figura (rosa polar) completada en el frame '{frame_name}'!")
+```
+### VIDEO DE SIMULACIÓN EN ROBODK MOSTRANDO LA TRAYECTORIA POLAR:
+
+[![Ver video](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/CapturaSimulacion.PNG?raw=true)](https://drive.google.com/file/d/14JbyRtTl9OlgKsnysJ1sjEwKrNEW9lJ9/view?usp=sharing)
 
 

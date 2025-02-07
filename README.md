@@ -42,7 +42,29 @@ La velocidad manual se puede cambiar con los botones [FAST] y [SLOW], [FAST] inc
 Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la parte superior de la interfaz.
 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-038.jpg?raw=true)
+### 5. Descripción de las principales funcionalidades de RoboDK:
 
+RoboDK es un software que permite la simulación y la programación offline de robots industriales. Permite generar trayectorias y enviar comandos a robots físicos sin  la necesidad de programarlos manualmente en su controlador. Para el caso del robot Motoman de Yaskawa la comunicación se realiza mediante el controlador propio del robot a través de archivos de programas (JBI) que tienen las instrucciones de acción para el robot.
+
+Para el laboratorio se utilizó la API de RoboDK en Python, esta API no es exclusiva de Python y se puede usar en varios lenguajes de programación como C++, C#, Java y Matlab. Utiliza el módulo Robolink que funciona como un intermediario entre el código y el entorno de simulación
+```
+from robodk.robolink import *
+
+RDK = Robolink()
+```
+
+Para enviar comandos al robot en tiempo real se añaden los respectivos comandos del API luego de haber instanciado el robot, el frame y la herramienta
+
+```
+robot = RDK.Item("Motoman", ITEM_TYPE_ROBOT)
+frame = RDK.Item("Base", ITEM_TYPE_FRAME)
+tool = RDK.Item("Gripper", ITEM_TYPE_TOOL)
+
+robot.MoveJ()
+robot.MoveL()
+robot.MoveC()
+```
+Luego RoboDK utiliza MotoCom o MotoPlus para enviar los comandos en tiempo real al robot mediante comunicación ethernet. O bien se pueden enviar los programas al controlador mediante USB o FTP en cuyo caso el código se ejecuta desde el Teach Pendant.
 ### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR:
 
 A continuación se observa el código phyton implementado para ejecutar la rutina del Motoman MH6:

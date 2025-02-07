@@ -16,3 +16,12 @@ A continuación se muestra la posición del manipulador en HOME 1:
 
 Los ángulos correspondientes a esta posición de HOME 1 se muestran en la siguiente figura:
 
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Home1_angulos.jpg?raw=true)
+
+A continuación se muestra la posición del manipulador en HOME 2:
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Home2.jpg?raw=true)
+
+Los ángulos correspondientes a esta posición de HOME 2 se muestran en la siguiente figura:
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Home2_angulos.jpg?raw=true)

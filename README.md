@@ -151,8 +151,14 @@ robot.MoveL(transl(x, y, z_surface + z_safe))
 
 print(f"¡Figura (rosa polar) completada en el frame '{frame_name}'!")
 ```
-### VIDEO DE SIMULACIÓN EN ROBODK MOSTRANDO LA TRAYECTORIA POLAR:
+### 8. VIDEO DE SIMULACIÓN EN ROBODK MOSTRANDO LA TRAYECTORIA POLAR:
+
+Dando click en la siguiente imagen lo redirigirá al video de la simulación donde el robot ejecuta la trayectoria polar.
 
 [![Ver video](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/CapturaSimulacion.PNG?raw=true)](https://drive.google.com/file/d/14JbyRtTl9OlgKsnysJ1sjEwKrNEW9lJ9/view?usp=sharing)
 
+### 9. IMPLEMENTACIÓN EN EL MANIPULADOR MOTOMAN DE FORMA FÍSICA:
 
+Dando click en la siguiente imagen lo redirigirá al video de la implementación física donde el robot ejecuta la trayectoria polar en la vida real.
+
+[![Ver video](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/CapturaEjecucionReal.PNG?raw=true)](https://drive.google.com/file/d/1c34hLpIiWrlbkiJAAfrrLgcEIB8qxs0G/view?usp=sharing)

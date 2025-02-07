@@ -31,7 +31,7 @@ Como se puede observar en las anteriores 4 figuras, la posición HOME 1 y HOME 2
 
 ### VELOCIDADES MANUALES:
 
-Existen 4 movimientos de velocidad manual, [INCH](Inching) - [SLW](Slow Speed) - [MED](Medium Speed) - [FST](High Speed); nombrados respectivamente desde el movimiento más lento, hasta el movimiento más rápido.
+Existen 4 movimientos de velocidad manual, [INCH] (Inching) - [SLW] (Slow Speed) - [MED] (Medium Speed) - [FST] (High Speed); nombrados respectivamente desde el movimiento más lento, hasta el movimiento más rápido.
 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-085.jpg?raw=true)
 
@@ -40,4 +40,5 @@ La velocidad manual se puede cambiar con los botones [FAST] y [SLOW], [FAST] inc
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-086.jpg?raw=true)
 
 Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la parte superior de la interfaz.
+
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-038.jpg?raw=true)

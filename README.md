@@ -27,3 +27,17 @@ Los ángulos correspondientes a esta posición de HOME 2 se muestran encerrados 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Home2_angulos.jpg?raw=true)
 
 Como se puede observar en las anteriores 4 figuras, la posición HOME 1 y HOME 2 son bastante diferentes. En un ambito industrial, habitat natural de los robots manipuladores, las posiciones de HOME se determinan en función de las condiciones de trabajo y de las necesidades especificas que se requieran en cada lugar y situación. Por ejemplo, la posición HOME 1 mostrada podría ser útil cuando el robot no se está usando y se desea que ocupe la menor cantidad de espacio posible sin estorbar ni obstaculizar nada ni a nadie. Sin embargo, si se desea realizar alguna reparación al servo motor de la base, esta posición de HOME 1 no es la más adecuada y en lugar de eso la posición de HOME 2 recién mostrada parece ser una mejor alternativa en ese caso. Así mismo, habrá otra posición HOME 3 que sea ideal cuando se requiera cambiar de herramienta. En conclusión, ninguna posición HOME es mejor que la otra, y dependiendo de las necesidades, cada será más adecuada que la otra. 
+
+
+### VELOCIDADES MANUALES:
+
+Existen 4 movimientos de velocidad manual, [INCH](Inching) - [SLW](Slow Speed) - [MED](Medium Speed) - [FST](High Speed); nombrados respectivamente desde el movimiento más lento, hasta el movimiento más rápido.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-085.jpg?raw=true)
+
+La velocidad manual se puede cambiar con los botones [FAST] y [SLOW], [FAST] incrementando la velocidad, y [SLOW] disminuyendola, así como se enseña en el siguiente diagrama:
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-086.jpg?raw=true)
+
+Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la parte superior de la interfaz.
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-038.jpg?raw=true)

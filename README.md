@@ -42,7 +42,7 @@ La velocidad manual se puede cambiar con los botones [FAST] y [SLOW], [FAST] inc
 Se puede saber en qué nivel de velocidad se encuentra el robot, mirando la parte superior de la interfaz.
 
 ![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-038.jpg?raw=true)
-### 5. Descripción de las principales funcionalidades de RoboDK:
+### 5. DESCRIPCIÓN DE LAS PRINCIPALES FUNCIONALIDADES DE ROBODK:
 
 RoboDK es un software que permite la simulación y la programación offline de robots industriales. Permite generar trayectorias y enviar comandos a robots físicos sin  la necesidad de programarlos manualmente en su controlador. Para el caso del robot Motoman de Yaskawa la comunicación se realiza mediante el controlador propio del robot a través de archivos de programas (JBI) que tienen las instrucciones de acción para el robot.
 

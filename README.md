@@ -10,4 +10,4 @@ El Motoman MH6 es más adecuado para aplicaciones que requieren mayor alcance y 
 
 ### DESCRIPCIÓN DE LAS CONFIGURACIONES HOME 1 Y HOME 2 DEL ROBOT MOTOMAN MH6
 
-A continuación se muestran 
+A continuación se muestra la posición del manipulador en HOME 1:

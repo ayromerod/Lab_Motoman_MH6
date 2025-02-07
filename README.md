@@ -1,4 +1,4 @@
-# Laboratorio: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6
+# LABORATORIO: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6
 
 ### 1. CUADRO COMPARATIVO:
 
@@ -28,6 +28,7 @@ Los ángulos correspondientes a esta posición de HOME 2 se muestran encerrados 
 
 Como se puede observar en las anteriores 4 figuras, la posición HOME 1 y HOME 2 son bastante diferentes. En un ambito industrial, habitat natural de los robots manipuladores, las posiciones de HOME se determinan en función de las condiciones de trabajo y de las necesidades especificas que se requieran en cada lugar y situación. Por ejemplo, la posición HOME 1 mostrada podría ser útil cuando el robot no se está usando y se desea que ocupe la menor cantidad de espacio posible sin estorbar ni obstaculizar nada ni a nadie. Sin embargo, si se desea realizar alguna reparación al servo motor de la base, esta posición de HOME 1 no es la más adecuada y en lugar de eso la posición de HOME 2 recién mostrada parece ser una mejor alternativa en ese caso. Así mismo, habrá otra posición HOME 3 que sea ideal cuando se requiera cambiar de herramienta. En conclusión, ninguna posición HOME es mejor que la otra, y dependiendo de las necesidades, cada una será más adecuada que la otra. 
 
+### 3. PROCEDIMIENTO PARA REALIZAR MOVIMIENTOS MANUALES:
 
 ### 4. VELOCIDADES MANUALES:
 
@@ -65,6 +66,9 @@ robot.MoveL()
 robot.MoveC()
 ```
 Luego RoboDK utiliza MotoCom o MotoPlus para enviar los comandos en tiempo real al robot mediante comunicación ethernet. O bien se pueden enviar los programas al controlador mediante USB o FTP en cuyo caso el código se ejecuta desde el Teach Pendant.
+
+### 6. COMPARACIÓN ENTRE RoboDK Y RobotStudio:
+
 ### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR:
 
 A continuación se observa el código phyton implementado para ejecutar la rutina del Motoman MH6:

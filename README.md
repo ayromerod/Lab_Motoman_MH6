@@ -150,6 +150,11 @@ RDK = Robolink()
 robot = RDK.ItemUserPick("Selecciona un robot", ITEM_TYPE_ROBOT)
 if not robot.Valid():
     raise Exception("No se ha seleccionado un robot válido.")
+if not robot.Connect():
+    raise Exception("No se ha seleccionado un robot válido.")
+if not robot.ConnectedState():
+    raise Exception("No se ha seleccionado un robot válido.")
+print('Robot Conectado')
 
 #------------------------------------------------
 # 2) Cargar el Frame (ya existente) donde quieres dibujar
@@ -173,9 +178,9 @@ robot.setRounding(5)  # blending (radio de curvatura)
 # 3) Parámetros de la figura (rosa polar)
 #------------------------------------------------
 num_points = 720       # Cuántos puntos muestreamos (mayor = más suave)
-A = 150                # Amplitud (300 mm = radio máximo)
-B = 1.8
-k = 5                  # Parámetro de la rosa (pétalos). Si es impar, habrá k pétalos; si es par, 2k
+A = 30                # Amplitud (300 mm = radio máximo)
+B = 12
+k = 12                  # Parámetro de la rosa (pétalos). Si es impar, habrá k pétalos; si es par, 2k
 z_surface = 0          # Z=0 en el plano del frame
 z_safe = 50            # Altura segura para aproximarse y salir
 
@@ -194,7 +199,7 @@ robot.MoveL(transl(0, 0, z_surface))
 #    x = r*cos(theta), y = r*sin(theta)
 #------------------------------------------------
 # Recorremos theta de 0 a 2*pi (una vuelta completa)
-full_turn = 2*math.pi
+full_turn = 5*math.pi
 
 for i in range(num_points+1):
     # Fracción entre 0 y 1

@@ -1,4 +1,19 @@
-# LABORATORIO: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6
+<br />
+<div align="center">
+  <a href="https://github.com/Danmunozbe/Practica1/tree/Pain2">
+    <img src="Figuras/UNAL.png" alt="Logo" width="200">
+  </a>
+
+  <h3 align="center">LABORATORIO: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6</h3>
+
+  <p align="center">Robótica
+    <br />
+    <a href="https://github.com/Danmunozbe/Practica1/tree/Pain2"></a>
+    <br />A . B . C
+  </p>
+</div>
+
+
 
 ### 1. CUADRO COMPARATIVO ENTRE LOS ROBOTS MOTOMAN MH6 Y ABB IRB140:
 

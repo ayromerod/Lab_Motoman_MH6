@@ -68,7 +68,7 @@ Coordenadas de Herramienta.
 
 Las articulaciones se mueven segun la orientación del TCP, efectuando movimientos en coordenadas cartecianas alrededor de este.
 
-![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/TCP.png?raw=true)
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Tool.png?raw=true)
 
 ### 4. VELOCIDADES MANUALES EN EL ROBOT MOTOMAN MH6:
 

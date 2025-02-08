@@ -30,6 +30,46 @@ Como se puede observar en las anteriores 4 figuras, la posición HOME 1 y HOME 2
 
 ### 3. PROCEDIMIENTO PARA REALIZAR MOVIMIENTOS MANUALES EN EL ROBOT MOTOMAN MH6:
 
+Para operar manualmente el robot, se escoje qué típo de coordenadas se usa. El tipo de coordenada se puede ver en en la parte superior de la interfaz.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Coords.jpg?raw=true)
+
+Al momento de operar el robot, se tiene que sujetar el TeachPendant y presionar el switch que activa los servos. Este switch no debe de ser presionado en su totalidad; y debe de permanecer sujetado por la duración de la operación manual.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Switch.png?raw=true)
+
+Con todo lo descrito anteriormente, se utilizan los siguientes botones del TeachPendant para el movimiento del robot.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Buttons.png?raw=true)
+
+Dependiendo del tipo de coordenadas, y omitiendo las coordenadas que puede configurar el usuario; el robot se puede mover de distintas maneras:
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/DX100MH6%20UN%20v2.pptx.pdf-image-081.jpg?raw=true)
+
+Coordenadas Articulares:
+
+Las articulaciones se mueven independiente una de la otra, con los botones indicando en que eje y que dirección se mueve cada una.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Joint.png?raw=true)
+
+Coordenadas Cartesianas:
+
+Las articulaciones ahora se mueven en rectas paralelas a los ejes de el espacio tridimencional.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/XYZ.png?raw=true)
+
+Coordenadas Cilíndricas:
+
+Se mantiene el movimiento paralelo sobre el eje Z en estas coordenadas. Ahora existe un movimiento radial indicado por la rotación en la base del robot, y otro movimiento perpendicular al eje Z.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/Cylindrical.png?raw=true)
+
+Coordenadas de Herramienta.
+
+Las articulaciones se mueven segun la orientación del TCP, efectuando movimientos en coordenadas cartecianas alrededor de este.
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/TCP.png?raw=true)
+
 ### 4. VELOCIDADES MANUALES EN EL ROBOT MOTOMAN MH6:
 
 Existen 4 movimientos de velocidad manual, [INCH] (Inching) - [SLW] (Slow Speed) - [MED] (Medium Speed) - [FST] (High Speed); nombrados respectivamente desde el movimiento más lento, hasta el movimiento más rápido.

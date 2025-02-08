@@ -70,6 +70,12 @@ Luego RoboDK utiliza MotoCom o MotoPlus para enviar los comandos en tiempo real 
 
 ### 6. COMPARACIÓN ENTRE RoboDK Y RobotStudio:
 
+A continuación se muestra un cuadro comparativo entre los dos software:
+
+![](https://github.com/ayromerod/Lab_Motoman_MH6/blob/main/Figuras/ComparativoSoftware.PNG?raw=true)
+
+Respecto a las ventajas y desventajas de cada software, destacar que RoboDK es mucho más económico, usa lenguajes comunes como Phyton o C++ y permite generar código para muchas marcas de robots. Por otro lado, RobotStudio es mucho más costoso, solo usa su propio lenguaje propietario RAPID y funciona solo con robots ABB. Sin embargo RobotStudio tiene una simulación mucho más precisa que RoboDK debido a que usa un controlador virtual identico al usado por los robots ABB reales. 
+
 ### 7. CÓDIGO DESARROLLADO EN ROBODK PARA EJECUTAR UNA TRAYECTORIA POLAR CON EL ROBOT MOTOMAN MH6:
 
 A continuación se observa el código phyton implementado para ejecutar la rutina del Motoman MH6:

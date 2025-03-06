@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Danmunozbe/Practica1/tree/Pain2">
-    <img src="Figuras/UNAL.png" alt="Logo" width="200">
+    <img src="Figuras/UNAL.jpg" alt="Logo" width="200">
   </a>
 
   <h3 align="center">LABORATORIO: ANÁLISIS Y OPERACIÓN DEL MANIPULADOR MOTOMAN MH6</h3>
